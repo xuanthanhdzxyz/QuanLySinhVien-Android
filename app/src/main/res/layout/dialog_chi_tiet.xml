@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <!-- Ảnh avatar -->
+    <ImageView
+        android:id="@+id/imgAvatarDialog"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_avatar_placeholder" />
+
+    <!-- Họ tên -->
+    <TextView
+        android:id="@+id/txtHoTenDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ tên"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black" />
+
+    <!-- MSSV -->
+    <TextView
+        android:id="@+id/txtMSSVDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MSSV"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/text_gray" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/txtEmailDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/text_gray" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="nhap_email">Nhập địa chỉ email</string>
+    <string name="nhap_ho_ten">Nhập họ và tên sinh viên</string>
+    <string name="nhap_link_anh">Nhập link ảnh avatar (tùy chọn)</string>
+    <string name="nhap_mssv">Nhập mã số sinh viên</string>
+    <string name="thong_bao_nhap_day_du">Vui lòng nhập đầy đủ thông tin</string>
+    <string name="thong_bao_sua_thanh_cong">Đã cập nhật sinh viên</string>
+    <string name="thong_bao_them_thanh_cong">Đã thêm sinh viên</string>
+    <string name="thong_bao_xoa_thanh_cong">Đã xóa sinh viên</string>
+    <string name="chua_co_sinh_vien">Chưa có sinh viên nào</string>
+    <string name="app_name">Quản Lý Sinh Viên</string>
+    <string name="danh_sach_sinh_vien">DANH SÁCH SINH VIÊN</string>
+    <string name="them_sinh_vien">+ Thêm sinh viên</string>
+    <string name="sua">Sửa</string>
+    <string name="xoa">Xóa</string>
+    <string name="luu">Lưu</string>
+    <string name="ho_ten">Họ và tên sinh viên</string>
+    <string name="mssv">Mã số sinh viên</string>
+    <string name="email">Địa chỉ email</string>
+    <string name="link_anh">Link ảnh avatar (tùy chọn)</string>
+    <string name="xac_nhan_sua">Bạn có muốn sửa thông tin SV không?</string>
+    <string name="xac_nhan_xoa">Bạn có muốn xóa thông tin SV không?</string>
+    <string name="co">Có</string>
+    <string name="khong">Không</string>
+    <string name="chi_tiet_sinh_vien">Chi tiết sinh viên</string>
+    <string name="sua_sinh_vien">Sửa sinh viên</string>
+    <string name="phu_de">Quản lý hồ sơ sinh viên cố định</string>
+    <string name="sinh_vien">Sinh viên</string>
+    <string name="chon_anh">Chọn ảnh</string>
+    <string name="luu_sinh_vien">Lưu sinh viên</string>
+    <string name="xac_nhan">Xác nhận</string>
+    <string name="dong">Đóng</string>
+
+    <!-- 4 chuỗi cần thêm -->
+    <string name="nhap_day_du">Vui lòng nhập đầy đủ thông tin</string>
+    <string name="them_thanh_cong">Đã thêm sinh viên</string>
+    <string name="sua_thanh_cong">Đã cập nhật sinh viên</string>
+    <string name="xoa_thanh_cong">Đã xóa sinh viên</string>
+</resources>

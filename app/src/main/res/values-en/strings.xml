@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Student Manager</string>
+    <string name="danh_sach_sinh_vien">Student List</string>
+    <string name="them_sinh_vien">Add Student</string>
+    <string name="sua">Edit</string>
+    <string name="xoa">Delete</string>
+    <string name="luu">Save</string>
+    <string name="ho_ten">Full Name</string>
+    <string name="mssv">Student ID</string>
+    <string name="email">Email</string>
+    <string name="link_anh">Avatar Link</string>
+    <string name="xac_nhan_sua">Do you want to edit this student?</string>
+    <string name="xac_nhan_xoa">Do you want to delete this student?</string>
+    <string name="co">Yes</string>
+    <string name="khong">No</string>
+    <string name="chi_tiet_sinh_vien">Student Detail</string>
+    <string name="sua_sinh_vien">Edit Student</string>
+    <string name="phu_de">Manage fixed student profiles</string>
+    <string name="sinh_vien">Student</string>
+    <string name="chon_anh">Choose Image</string>
+    <string name="luu_sinh_vien">Save Student</string>
+
+    <!-- Các chuỗi bổ sung -->
+    <string name="nhap_ho_ten">Enter full name</string>
+    <string name="nhap_mssv">Enter student ID</string>
+    <string name="nhap_email">Enter email address</string>
+    <string name="nhap_link_anh">Enter avatar link (optional)</string>
+    <string name="thong_bao_nhap_day_du">Please fill in all information</string>
+    <string name="thong_bao_them_thanh_cong">Student added</string>
+    <string name="thong_bao_sua_thanh_cong">Student updated</string>
+    <string name="thong_bao_xoa_thanh_cong">Student deleted</string>
+    <string name="chua_co_sinh_vien">No students yet</string>
+    <string name="xac_nhan">Confirm</string>
+    <string name="dong">Close</string>
+</resources>

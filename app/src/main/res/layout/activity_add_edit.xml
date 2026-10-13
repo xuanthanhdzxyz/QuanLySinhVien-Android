@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_light">
+
+    <!-- THANH TIÊU ĐỀ VỚI NÚT QUAY LẠI -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/primary_color"
+        android:padding="12dp">
+
+        <!-- Nút quay lại (Back) -->
+        <ImageView
+            android:id="@+id/btnQuayLai"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="@color/white"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            android:contentDescription="Back" />
+
+        <!-- Tiêu đề -->
+        <TextView
+            android:id="@+id/txtTieuDe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/them_sinh_vien"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingStart="12dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- KHUNG CHỌN ẢNH AVATAR -->
+            <FrameLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_avatar_placeholder">
+
+                <!-- Ảnh avatar (hiển thị từ link) -->
+                <ImageView
+                    android:id="@+id/imgAvatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chon_anh"
+                android:textSize="12sp"
+                android:textColor="@color/text_gray"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp" />
+
+            <!-- Ô NHẬP HỌ TÊN -->
+            <EditText
+                android:id="@+id/edtHoTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ho_ten"
+                android:inputType="textPersonName"
+                android:padding="14dp"
+                android:background="@drawable/bg_edittext"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Ô NHẬP MSSV -->
+            <EditText
+                android:id="@+id/edtMSSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mssv"
+                android:inputType="text"
+                android:padding="14dp"
+                android:background="@drawable/bg_edittext"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Ô NHẬP EMAIL -->
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="14dp"
+                android:background="@drawable/bg_edittext"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Ô NHẬP LINK ẢNH -->
+            <EditText
+                android:id="@+id/edtAnhAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/link_anh"
+                android:inputType="textUri"
+                android:padding="14dp"
+                android:background="@drawable/bg_edittext"
+                android:layout_marginBottom="24dp" />
+
+            <!-- NÚT LƯU -->
+            <Button
+                android:id="@+id/btnLuu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/luu_sinh_vien"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/primary_color"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
